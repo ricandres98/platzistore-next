@@ -1,0 +1,15 @@
+<svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="15" cy="15" r="15" fill="white"/>
+<line x1="9.49614" y1="8.93798" x2="10.4961" y2="16.938" stroke="#C6C6C6"/>
+<line x1="10" y1="10.5" x2="23" y2="10.5" stroke="#C6C6C6"/>
+<line x1="18.584" y1="16.7226" x2="22.584" y2="10.7226" stroke="#C6C6C6"/>
+<line x1="11" y1="16.5" x2="19" y2="16.5" stroke="#C6C6C6"/>
+<line x1="8.58397" y1="19.7226" x2="10.584" y2="16.7227" stroke="#C6C6C6"/>
+<line x1="9" y1="19.5" x2="19" y2="19.5" stroke="#C6C6C6"/>
+<circle cx="21" cy="20" r="1.5" stroke="#C6C6C6"/>
+<circle cx="14" cy="22" r="1.5" stroke="#C6C6C6"/>
+<line x1="7" y1="8.5" x2="10" y2="8.5" stroke="#C6C6C6"/>
+<circle cx="20.5" cy="9.5" r="4.5" fill="#ACD9B2"/>
+<line x1="18.3536" y1="9.64645" x2="20.3536" y2="11.6464" stroke="white"/>
+<line x1="19.6464" y1="11.6464" x2="22.6464" y2="8.64645" stroke="white"/>
+</svg>

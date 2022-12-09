@@ -1,0 +1,116 @@
+.CurrentOrder {
+  position: absolute;
+  right: -24px;
+  top: 60px;
+  width: 360px;
+  height: calc(100vh - 60px);
+  padding: 24px;
+  box-sizing: border-box;
+  background-color: white;
+  border-radius: 6px;
+  border: 1px solid var(--very-light-pink);
+  z-index: 1;
+}
+
+.CurrentOrder .title-container {
+  display: flex;
+}
+
+.CurrentOrder .title-container button {
+  display: flex;
+  align-items: center;
+  margin-right: 14px;
+}
+
+.CurrentOrder .title-container button img {
+  transform: rotate(180deg);
+  
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.CurrentOrder .title {
+  font-size: var(--lg);
+  font-weight: bold;
+}
+
+.CurrentOrder .my-order-content {
+  height: calc(100% - 230px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.CurrentOrder .my-order__product-list {
+  overflow-y: auto;
+  scrollbar-gutter: stable;
+  padding-right: 10px;
+}
+
+.CurrentOrder .my-order__product-list::-webkit-scrollbar-track {
+  background-color: transparent;
+  /*color de la barra de fondo*/
+}
+.CurrentOrder .my-order__product-list::-webkit-scrollbar-thumb {
+  background-color: var(--hospital-green);
+  /*color del manejador*/
+}
+.CurrentOrder .my-order__product-list::-webkit-scrollbar {
+  width: 8px;
+  /*ancho del scroll vertical*/
+  height: 8px;
+  /*alto del scroll horizontal*/
+}
+
+.CurrentOrder .my-order-buttons {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 48px);
+  padding: 24px 0;
+  background-color: var(--white);
+}
+
+.CurrentOrder .order {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 16px;
+  align-items: center;
+  background-color: var(--text-input-field);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+.CurrentOrder .order p:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+}
+
+.CurrentOrder .order p span:nth-child(1) {
+  font-size: var(--md);
+  font-weight: bold;
+}
+
+.CurrentOrder .order p:nth-child(2) {
+  text-align: end;
+  font-weight: bold;
+}
+
+.CurrentOrder .primary-button {
+  background-color: var(--hospital-green);
+  border-radius: 8px;
+  border: none;
+  color: var(--white);
+  width: 100%;
+  cursor: pointer;
+  font-size: var(--md);
+  font-weight: bold;
+  height: 50px;
+}
+
+@media (max-width: 640px) {
+  .CurrentOrder .product-detail {
+    width: 100%;
+  }
+}
