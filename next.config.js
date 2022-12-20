@@ -1,4 +1,9 @@
-module.exports = {
+const withPWA = require('next-pwa')({
+  dest: 'public',
+  include: ['production']
+});
+
+module.exports = withPWA({
   reactStrictMode: true,
   images: {
     domains: [ 
@@ -9,7 +14,12 @@ module.exports = {
       'static.nike.com',
       'i0.wp.com',
       'cdn1.coppel.com',
-      'pllaceimg.com'
+      'pllaceimg.com',
+      'elitbuk.ru',
+      'firebasestorage.googleapis.com',
+      'latqvbedpllwqek.skdesign.ru',
+      'www.basketshop.ru',
+      'images.pexels.com'
     ],
     // remotePatterns: [
     //   {
@@ -32,4 +42,4 @@ module.exports = {
   //     },
   //   ];
   // },
-};
+});
