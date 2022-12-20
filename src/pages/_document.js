@@ -1,6 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document';
 
-
 function Document() {
   return (
     <Html lang="en">
@@ -11,6 +10,7 @@ function Document() {
           href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;500;700&display=swap"
           rel="stylesheet"
         />
+        <link rel="manifest" href="/manifest.json" />
       </Head>
       <body>
         <Main />
